@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roots & Hues | Dr. Ruchi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PERFORMANCE OPTIMIZATIONS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <meta name="theme-color" content="#0f0f23">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+  <!-- GSAP ANIMATIONS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- FLOATING LIQUID SHAPES -->
+<div class="floating-shapes">
+  <div class="shape morph-shape"></div>
+  <div class="shape morph-shape"></div>
+  <div class="shape morph-shape"></div>
+  <div class="shape morph-shape"></div>
+</div>
+
+<header class="navbar">
+  <div class="logo">Roots & Hues</div>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#art">Art</a>
+    <a href="#commissions">Commissions</a>
+    <a href="#author">Author</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="section hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Roots & Hues</h1>
+      <p class="tagline">Where art speaks, and words breathe</p>
+      <p class="birthday">A small gift for a world that means everything 💛</p>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-object">
+        <img src="assets/profile.jpg" alt="Dr. Ruchi" class="hero-image">
+      </div>
+      <div class="hero-ring"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade">
+  <h2>About</h2>
+  <p>
+    An artist and author whose work reflects depth, emotion, and rooted beauty.
+    Through colors and words, she creates a world that connects soul to expression.
+  </p>
+</section>
+
+<!-- ART -->
+<section id="art" class="section fade">
+  <h2>Art Gallery</h2>
+  <div class="art-header-text">Immersive Gallery Experience</div>
+  
+  <div class="horizontal-scroll">
+    <div class="grid">
+      <div class="art-card" data-index="0"><img src="assets/art/1.jpg"></div>
+      <div class="art-card" data-index="1"><img src="assets/art/2.jpg"></div>
+      <div class="art-card" data-index="2"><img src="assets/art/3.jpg"></div>
+      <div class="art-card" data-index="3"><img src="assets/art/4.jpg"></div>
+      <div class="art-card" data-index="4"><img src="assets/art/5.jpg"></div>
+      <div class="art-card" data-index="5"><img src="assets/art/6.jpg"></div>
+
+      <div class="art-card" data-index="6"><img src="assets/art/7.jpg"></div>
+      <div class="art-card" data-index="7"><img src="assets/art/8.jpg"></div>
+      <div class="art-card" data-index="8"><img src="assets/art/9.jpg"></div>
+      <div class="art-card" data-index="9"><img src="assets/art/10.jpg"></div>
+      <div class="art-card" data-index="10"><img src="assets/art/11.jpg"></div>
+      <div class="art-card" data-index="11"><img src="assets/art/12.jpg"></div>
+
+      <div class="art-card" data-index="12"><img src="assets/art/13.jpg"></div>
+      <div class="art-card" data-index="13"><img src="assets/art/14.jpg"></div>
+      <div class="art-card" data-index="14"><img src="assets/art/15.jpg"></div>
+      <div class="art-card" data-index="15"><img src="assets/art/16.jpg"></div>
+      <div class="art-card" data-index="16"><img src="assets/art/17.jpg"></div>
+      <div class="art-card" data-index="17"><img src="assets/art/18.jpg"></div>
+
+      <div class="art-card" data-index="18"><img src="assets/art/19.jpg"></div>
+      <div class="art-card" data-index="19"><img src="assets/art/20.jpg"></div>
+      <div class="art-card" data-index="20"><img src="assets/art/21.jpg"></div>
+      <div class="art-card" data-index="21"><img src="assets/art/22.jpg"></div>
+      <div class="art-card" data-index="22"><img src="assets/art/23.jpg"></div>
+      <div class="art-card" data-index="23"><img src="assets/art/24.jpg"></div>
+
+      <div class="art-card" data-index="24"><img src="assets/art/25.jpg"></div>
+      <div class="art-card" data-index="25"><img src="assets/art/26.jpg"></div>
+      <div class="art-card" data-index="26"><img src="assets/art/27.jpg"></div>
+      <div class="art-card" data-index="27"><img src="assets/art/28.jpg"></div>
+      <div class="art-card" data-index="28"><img src="assets/art/29.jpg"></div>
+      <div class="art-card" data-index="29"><img src="assets/art/30.jpg"></div>
+
+      <div class="art-card" data-index="30"><img src="assets/art/31.jpg"></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMISSIONS -->
+<section id="commissions" class="section fade">
+  <h2>Custom Artworks</h2>
+  
+  <div class="commission-scene">
+    <div class="torus-ring ring-a"></div>
+    <div class="torus-ring ring-b"></div>
+  </div>
+
+  <div class="coming-box glassmorphism-box">
+    <p class="main">Commissions Opening Soon</p>
+    <p class="sub">Soon, your stories will be painted into art.</p>
+  </div>
+</section>
+
+<!-- AUTHOR -->
+<section id="author" class="section fade">
+  <h2>Author Works</h2>
+  <div class="author-header-text">Interactive Book Collection</div>
+
+  <div class="horizontal-scroll">
+    <div class="grid">
+
+      <a href="javascript:void(0)" class="book-card" data-index="0"><img src="assets/books/book1.jpeg"><span>Perpetual Adoration</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="1"><img src="assets/books/book2.jpeg"><span>Ruminative Pearls</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="2"><img src="assets/books/book3.jpeg"><span>Pensieroso Blossoms</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="3"><img src="assets/books/book4.jpeg"><span>MSD: Curriculum Vitae</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="4"><img src="assets/books/book5.jpeg"><span>Missing You.... [Dadaji]</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="5"><img src="assets/books/book6.jpeg"><span>Haunted House</span></a>
+
+      <a href="javascript:void(0)" class="book-card" data-index="6"><img src="assets/books/book7.jpeg"><span>Syamantak [Short Stories]</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="7"><img src="assets/books/book8.jpeg"><span>लौट आई राजकुमारी</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="8"><img src="assets/books/book10.jpeg"><span>The Black Year</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="9"><img src="assets/books/book11.jpeg"><span>भारतवर्ष</span></a>
+      <a href="javascript:void(0)" class="book-card" data-index="10"><img src="assets/books/book12.jpeg"><span>रहस्यमयी घर</span></a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade">
+  <h2>Get in touch</h2>
+  <p>
+    Feel free to reach out if you are looking for <strong>collabs or paid work</strong>, 
+    have a query, or simply want to connect.
+  </p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER ICONS -->
+<footer class="footer">
+
+  <a href="https://www.youtube.com/@RootsnHuesbyDrRuchi" target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M21.8 8s-.2-1.4-.8-2c-.7-.8-1.5-.8-1.9-.9C16.6 5 12 5 12 5h0s-4.6 0-7.1.1c-.4 0-1.2.1-1.9.9-.6.6-.8 2-.8 2S2 9.6 2 11.2v1.6C2 14.4 2.2 16 2.2 16s.2 1.4.8 2c.7.8 1.6.8 2 .9 1.5.1 7 .1 7 .1s4.6 0 7.1-.1c.4 0 1.2-.1 1.9-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-1.6C22 9.6 21.8 8 21.8 8zM10 14.5V9.5l5 2.5-5 2.5z"/></svg>
+  </a>
+
+  <a href="https://www.instagram.com/rootsnhues_dr.ruchi" target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.8a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
+  </a>
+
+  <a href="https://x.com/Ruchi_Su_Ru_Mi" target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M18 2h3l-7 8 8 12h-6l-5-7-6 7H2l8-9-8-11h6l4 6 6-6z"/></svg>
+  </a>
+
+  <a href="https://www.wattpad.com/user/DrRuchiSharma83" target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M4 4h3l2 10 2-10h3l2 10 2-10h3l-4 16h-3l-2-10-2 10H8L4 4z"/></svg>
+  </a>
+
+  <a href="https://english.pratilipi.com/user/डाॅ-रुचि-शर्मा" target="_blank">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+  </a>
+
+</footer>
+
+<script src="script-optimized.js" defer></script>
+
+</body>
+</html>
